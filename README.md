@@ -12,7 +12,9 @@ A Figura ilustra o cenário de comunicação hierárquico considerado pelo VORTE
 
 Após receber um objeto, a estação base o encaminha para o nó de borda associado. Antes de armazenar o objeto, o nó de borda verifica se já existe uma versão anterior do mesmo objeto, com base no tipo de objeto e na posição espacial aproximada. Se existir um registro anterior, a informação desatualizada é encaminhada para a nuvem e substituída pela observação mais recente. Esse mecanismo impede que dados obsoletos persistam na borda e garante que a percepção cooperativa seja suportada por informações atualizadas. Objetos cujo tempo de vida útil expirou são sistematicamente encaminhados para a nuvem, que se presume fornecer capacidade de armazenamento virtualmente ilimitada.
 
+
 ## Resultados
+
 
  A Figura acima apresenta a latência mediana (com IC de 95%) e o resultado do teste de Dunn, em dois painéis: à esquerda, dos objetos descarregados na borda; à direita, dos objetos descarregados na nuvem. A mediana foi adotada por se tratar de uma medida robusta à assimetria e à presença de valores extremos, comuns em métricas de latência. 
 
