@@ -1,0 +1,5 @@
+<launch>
+  <copy file="inter.net.xml"/>
+  <copy file="inter.rou.xml"/>
+  <copy file="inter.sumocfg" type="config"/>
+</launch>

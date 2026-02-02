@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Wed Jun 19 17:10:59 2024 by Eclipse SUMO netconvert Version 1.8.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <node-files value="inter.nod.xml"/>
+        <edge-files value="inter.edg.xml"/>
+    </input>
+
+    <output>
+        <output-file value="inter.net.xml"/>
+    </output>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<net version="1.6" junctionCornerDetail="5" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="0.00,750.00" convBoundary="0.00,0.00,1500.00,1500.00" origBoundary="0.00,-750.00,1500.00,750.00" projParameter="!"/>
+
+    <edge id=":1_0" function="internal">
+        <lane id=":1_0_0" index="0" speed="3.65" length="4.67" shape="0.00,751.60 -1.20,750.80 -1.60,750.00 -1.20,749.20 0.00,748.40"/>
+    </edge>
+    <edge id=":2_0" function="internal">
+        <lane id=":2_0_0" index="0" speed="3.65" length="4.67" shape="1500.00,748.40 1501.20,749.20 1501.60,750.00 1501.20,750.80 1500.00,751.60"/>
+    </edge>
+    <edge id=":3_0" function="internal">
+        <lane id=":3_0_0" index="0" speed="3.65" length="4.67" shape="751.60,1500.00 750.80,1501.20 750.00,1501.60 749.20,1501.20 748.40,1500.00"/>
+    </edge>
+    <edge id=":4_0" function="internal">
+        <lane id=":4_0_0" index="0" speed="3.65" length="4.67" shape="748.40,0.00 749.20,-1.20 750.00,-1.60 750.80,-1.20 751.60,0.00"/>
+    </edge>
+    <edge id=":sem1_0" function="internal">
+        <lane id=":sem1_0_0" index="0" speed="6.51" length="9.03" shape="745.20,760.40 744.85,757.95 743.80,756.20 742.05,755.15 739.60,754.80"/>
+    </edge>
+    <edge id=":sem1_1" function="internal">
+        <lane id=":sem1_1_0" index="0" speed="13.80" length="20.80" shape="745.20,760.40 745.20,739.60"/>
+        <lane id=":sem1_1_1" index="1" speed="13.80" length="20.80" shape="748.40,760.40 748.40,739.60"/>
+    </edge>
+    <edge id=":sem1_3" function="internal">
+        <lane id=":sem1_3_0" index="0" speed="9.26" length="6.96" shape="748.40,760.40 749.15,755.15 750.00,753.73"/>
+    </edge>
+    <edge id=":sem1_4" function="internal">
+        <lane id=":sem1_4_0" index="0" speed="3.65" length="2.34" shape="748.40,760.40 749.20,759.20 750.00,758.80"/>
+    </edge>
+    <edge id=":sem1_20" function="internal">
+        <lane id=":sem1_20_0" index="0" speed="9.26" length="12.40" shape="750.00,753.73 751.40,751.40 755.15,749.15 760.40,748.40"/>
+    </edge>
+    <edge id=":sem1_21" function="internal">
+        <lane id=":sem1_21_0" index="0" speed="3.65" length="2.34" shape="750.00,758.80 750.80,759.20 751.60,760.40"/>
+    </edge>
+    <edge id=":sem1_5" function="internal">
+        <lane id=":sem1_5_0" index="0" speed="6.51" length="9.03" shape="760.40,754.80 757.95,755.15 756.20,756.20 755.15,757.95 754.80,760.40"/>
+    </edge>
+    <edge id=":sem1_6" function="internal">
+        <lane id=":sem1_6_0" index="0" speed="13.80" length="20.80" shape="760.40,754.80 739.60,754.80"/>
+        <lane id=":sem1_6_1" index="1" speed="13.80" length="20.80" shape="760.40,751.60 739.60,751.60"/>
+    </edge>
+    <edge id=":sem1_8" function="internal">
+        <lane id=":sem1_8_0" index="0" speed="9.26" length="6.96" shape="760.40,751.60 755.15,750.85 753.73,750.00"/>
+    </edge>
+    <edge id=":sem1_9" function="internal">
+        <lane id=":sem1_9_0" index="0" speed="3.65" length="2.34" shape="760.40,751.60 759.20,750.80 758.80,750.00"/>
+    </edge>
+    <edge id=":sem1_22" function="internal">
+        <lane id=":sem1_22_0" index="0" speed="9.26" length="12.40" shape="753.73,750.00 751.40,748.60 749.15,744.85 748.40,739.60"/>
+    </edge>
+    <edge id=":sem1_23" function="internal">
+        <lane id=":sem1_23_0" index="0" speed="3.65" length="2.34" shape="758.80,750.00 759.20,749.20 760.40,748.40"/>
+    </edge>
+    <edge id=":sem1_10" function="internal">
+        <lane id=":sem1_10_0" index="0" speed="6.51" length="9.03" shape="754.80,739.60 755.15,742.05 756.20,743.80 757.95,744.85 760.40,745.20"/>
+    </edge>
+    <edge id=":sem1_11" function="internal">
+        <lane id=":sem1_11_0" index="0" speed="13.80" length="20.80" shape="754.80,739.60 754.80,760.40"/>
+        <lane id=":sem1_11_1" index="1" speed="13.80" length="20.80" shape="751.60,739.60 751.60,760.40"/>
+    </edge>
+    <edge id=":sem1_13" function="internal">
+        <lane id=":sem1_13_0" index="0" speed="9.26" length="6.96" shape="751.60,739.60 750.85,744.85 750.00,746.27"/>
+    </edge>
+    <edge id=":sem1_14" function="internal">
+        <lane id=":sem1_14_0" index="0" speed="3.65" length="2.34" shape="751.60,739.60 750.80,740.80 750.00,741.20"/>
+    </edge>
+    <edge id=":sem1_24" function="internal">
+        <lane id=":sem1_24_0" index="0" speed="9.26" length="12.40" shape="750.00,746.27 748.60,748.60 744.85,750.85 739.60,751.60"/>
+    </edge>
+    <edge id=":sem1_25" function="internal">
+        <lane id=":sem1_25_0" index="0" speed="3.65" length="2.34" shape="750.00,741.20 749.20,740.80 748.40,739.60"/>
+    </edge>
+    <edge id=":sem1_15" function="internal">
+        <lane id=":sem1_15_0" index="0" speed="6.51" length="9.03" shape="739.60,745.20 742.05,744.85 743.80,743.80 744.85,742.05 745.20,739.60"/>
+    </edge>
+    <edge id=":sem1_16" function="internal">
+        <lane id=":sem1_16_0" index="0" speed="13.80" length="20.80" shape="739.60,745.20 760.40,745.20"/>
+        <lane id=":sem1_16_1" index="1" speed="13.80" length="20.80" shape="739.60,748.40 760.40,748.40"/>
+    </edge>
+    <edge id=":sem1_18" function="internal">
+        <lane id=":sem1_18_0" index="0" speed="9.26" length="6.96" shape="739.60,748.40 744.85,749.15 746.27,750.00"/>
+    </edge>
+    <edge id=":sem1_19" function="internal">
+        <lane id=":sem1_19_0" index="0" speed="3.65" length="2.34" shape="739.60,748.40 740.80,749.20 741.20,750.00"/>
+    </edge>
+    <edge id=":sem1_26" function="internal">
+        <lane id=":sem1_26_0" index="0" speed="9.26" length="12.40" shape="746.27,750.00 748.60,751.40 750.85,755.15 751.60,760.40"/>
+    </edge>
+    <edge id=":sem1_27" function="internal">
+        <lane id=":sem1_27_0" index="0" speed="3.65" length="2.34" shape="741.20,750.00 740.80,750.80 739.60,751.60"/>
+    </edge>
+
+    <edge id="1tosem" from="1" to="sem1" priority="-1">
+        <lane id="1tosem_0" index="0" speed="13.80" length="739.60" shape="0.00,745.20 739.60,745.20"/>
+        <lane id="1tosem_1" index="1" speed="13.80" length="739.60" shape="0.00,748.40 739.60,748.40"/>
+    </edge>
+    <edge id="2tosem" from="2" to="sem1" priority="-1">
+        <lane id="2tosem_0" index="0" speed="13.80" length="739.60" shape="1500.00,754.80 760.40,754.80"/>
+        <lane id="2tosem_1" index="1" speed="13.80" length="739.60" shape="1500.00,751.60 760.40,751.60"/>
+    </edge>
+    <edge id="3tosem" from="3" to="sem1" priority="-1">
+        <lane id="3tosem_0" index="0" speed="13.80" length="739.60" shape="745.20,1500.00 745.20,760.40"/>
+        <lane id="3tosem_1" index="1" speed="13.80" length="739.60" shape="748.40,1500.00 748.40,760.40"/>
+    </edge>
+    <edge id="4tosem" from="4" to="sem1" priority="-1">
+        <lane id="4tosem_0" index="0" speed="13.80" length="739.60" shape="754.80,0.00 754.80,739.60"/>
+        <lane id="4tosem_1" index="1" speed="13.80" length="739.60" shape="751.60,0.00 751.60,739.60"/>
+    </edge>
+    <edge id="semto1" from="sem1" to="1" priority="-1">
+        <lane id="semto1_0" index="0" speed="13.80" length="739.60" shape="739.60,754.80 0.00,754.80"/>
+        <lane id="semto1_1" index="1" speed="13.80" length="739.60" shape="739.60,751.60 0.00,751.60"/>
+    </edge>
+    <edge id="semto2" from="sem1" to="2" priority="-1">
+        <lane id="semto2_0" index="0" speed="13.80" length="739.60" shape="760.40,745.20 1500.00,745.20"/>
+        <lane id="semto2_1" index="1" speed="13.80" length="739.60" shape="760.40,748.40 1500.00,748.40"/>
+    </edge>
+    <edge id="semto3" from="sem1" to="3" priority="-1">
+        <lane id="semto3_0" index="0" speed="13.80" length="739.60" shape="754.80,760.40 754.80,1500.00"/>
+        <lane id="semto3_1" index="1" speed="13.80" length="739.60" shape="751.60,760.40 751.60,1500.00"/>
+    </edge>
+    <edge id="semto4" from="sem1" to="4" priority="-1">
+        <lane id="semto4_0" index="0" speed="13.80" length="739.60" shape="745.20,739.60 745.20,0.00"/>
+        <lane id="semto4_1" index="1" speed="13.80" length="739.60" shape="748.40,739.60 748.40,0.00"/>
+    </edge>
+
+    <tlLogic id="sem1" type="static" programID="0" offset="0">
+        <phase duration="42" state="GGGggrrrrrGGGggrrrrr"/>
+        <phase duration="3"  state="yyyyyrrrrryyyyyrrrrr"/>
+        <phase duration="42" state="rrrrrGGGggrrrrrGGGgg"/>
+        <phase duration="3"  state="rrrrryyyyyrrrrryyyyy"/>
+    </tlLogic>
+
+    <junction id="1" type="priority" x="0.00" y="750.00" incLanes="semto1_0 semto1_1" intLanes=":1_0_0" shape="0.00,750.00 0.00,756.40 0.00,750.00">
+        <request index="0" response="0" foes="0" cont="0"/>
+    </junction>
+    <junction id="2" type="priority" x="1500.00" y="750.00" incLanes="semto2_0 semto2_1" intLanes=":2_0_0" shape="1500.00,750.00 1500.00,743.60 1500.00,750.00">
+        <request index="0" response="0" foes="0" cont="0"/>
+    </junction>
+    <junction id="3" type="priority" x="750.00" y="1500.00" incLanes="semto3_0 semto3_1" intLanes=":3_0_0" shape="750.00,1500.00 756.40,1500.00 750.00,1500.00">
+        <request index="0" response="0" foes="0" cont="0"/>
+    </junction>
+    <junction id="4" type="priority" x="750.00" y="0.00" incLanes="semto4_0 semto4_1" intLanes=":4_0_0" shape="750.00,0.00 743.60,0.00 750.00,0.00">
+        <request index="0" response="0" foes="0" cont="0"/>
+    </junction>
+    <junction id="sem1" type="traffic_light" x="750.00" y="750.00" incLanes="3tosem_0 3tosem_1 2tosem_0 2tosem_1 4tosem_0 4tosem_1 1tosem_0 1tosem_1" intLanes=":sem1_0_0 :sem1_1_0 :sem1_1_1 :sem1_20_0 :sem1_21_0 :sem1_5_0 :sem1_6_0 :sem1_6_1 :sem1_22_0 :sem1_23_0 :sem1_10_0 :sem1_11_0 :sem1_11_1 :sem1_24_0 :sem1_25_0 :sem1_15_0 :sem1_16_0 :sem1_16_1 :sem1_26_0 :sem1_27_0" shape="743.60,760.40 756.40,760.40 756.84,758.18 757.40,757.40 758.18,756.84 759.18,756.51 760.40,756.40 760.40,743.60 758.18,743.16 757.40,742.60 756.84,741.82 756.51,740.82 756.40,739.60 743.60,739.60 743.16,741.82 742.60,742.60 741.82,743.16 740.82,743.49 739.60,743.60 739.60,756.40 741.82,756.84 742.60,757.40 743.16,758.18 743.49,759.18">
+        <request index="0"  response="00000000000000000000" foes="00000000000011000000" cont="0"/>
+        <request index="1"  response="01000000000100000000" foes="01111110000111000000" cont="0"/>
+        <request index="2"  response="01000000000100000000" foes="01111110000111000000" cont="0"/>
+        <request index="3"  response="01000001100100000000" foes="01110001101111000000" cont="1"/>
+        <request index="4"  response="01000001100000000000" foes="01000001100000000000" cont="1"/>
+        <request index="5"  response="00000001100000000000" foes="00000001100000000000" cont="0"/>
+        <request index="6"  response="00000011100000001111" foes="11000011100000001111" cont="0"/>
+        <request index="7"  response="00000011100000001111" foes="11000011100000001111" cont="0"/>
+        <request index="8"  response="00110011100000001110" foes="00110111100000001110" cont="1"/>
+        <request index="9"  response="00110000000000001000" foes="00110000000000001000" cont="1"/>
+        <request index="10" response="00000000000000000000" foes="00110000000000000000" cont="0"/>
+        <request index="11" response="01000000000100000000" foes="01110000000111111000" cont="0"/>
+        <request index="12" response="01000000000100000000" foes="01110000000111111000" cont="0"/>
+        <request index="13" response="01000000000100000110" foes="11110000000111000110" cont="1"/>
+        <request index="14" response="00000000000100000110" foes="00000000000100000110" cont="1"/>
+        <request index="15" response="00000000000000000110" foes="00000000000000000110" cont="0"/>
+        <request index="16" response="00000011110000001110" foes="00000011111100001110" cont="0"/>
+        <request index="17" response="00000011110000001110" foes="00000011111100001110" cont="0"/>
+        <request index="18" response="00000011100011001110" foes="00000011100011011110" cont="1"/>
+        <request index="19" response="00000010000011000000" foes="00000010000011000000" cont="1"/>
+    </junction>
+
+    <junction id=":sem1_20_0" type="internal" x="750.00" y="753.73" incLanes=":sem1_3_0 4tosem_0 4tosem_1" intLanes=":sem1_6_0 :sem1_6_1 :sem1_8_0 :sem1_9_0 :sem1_10_0 :sem1_11_0 :sem1_11_1 :sem1_16_0 :sem1_16_1 :sem1_18_0"/>
+    <junction id=":sem1_21_0" type="internal" x="750.00" y="758.80" incLanes=":sem1_4_0 1tosem_1 2tosem_0 4tosem_0 4tosem_1" intLanes=":sem1_5_0 :sem1_11_0 :sem1_11_1 :sem1_18_0"/>
+    <junction id=":sem1_22_0" type="internal" x="753.73" y="750.00" incLanes=":sem1_8_0 1tosem_0 1tosem_1" intLanes=":sem1_1_0 :sem1_1_1 :sem1_3_0 :sem1_11_0 :sem1_11_1 :sem1_13_0 :sem1_14_0 :sem1_15_0 :sem1_16_0 :sem1_16_1"/>
+    <junction id=":sem1_23_0" type="internal" x="758.80" y="750.00" incLanes=":sem1_9_0 1tosem_0 1tosem_1 3tosem_1 4tosem_0" intLanes=":sem1_3_0 :sem1_10_0 :sem1_16_0 :sem1_16_1"/>
+    <junction id=":sem1_24_0" type="internal" x="750.00" y="746.27" incLanes=":sem1_13_0 3tosem_0 3tosem_1" intLanes=":sem1_0_0 :sem1_1_0 :sem1_1_1 :sem1_6_0 :sem1_6_1 :sem1_8_0 :sem1_16_0 :sem1_16_1 :sem1_18_0 :sem1_19_0"/>
+    <junction id=":sem1_25_0" type="internal" x="750.00" y="741.20" incLanes=":sem1_14_0 1tosem_0 2tosem_1 3tosem_0 3tosem_1" intLanes=":sem1_1_0 :sem1_1_1 :sem1_8_0 :sem1_15_0"/>
+    <junction id=":sem1_26_0" type="internal" x="746.27" y="750.00" incLanes=":sem1_18_0 2tosem_0 2tosem_1" intLanes=":sem1_1_0 :sem1_1_1 :sem1_3_0 :sem1_4_0 :sem1_5_0 :sem1_6_0 :sem1_6_1 :sem1_11_0 :sem1_11_1 :sem1_13_0"/>
+    <junction id=":sem1_27_0" type="internal" x="741.20" y="750.00" incLanes=":sem1_19_0 2tosem_0 2tosem_1 3tosem_0 4tosem_1" intLanes=":sem1_0_0 :sem1_6_0 :sem1_6_1 :sem1_13_0"/>
+
+    <connection from="1tosem" to="semto4" fromLane="0" toLane="0" via=":sem1_15_0" tl="sem1" linkIndex="15" dir="r" state="o"/>
+    <connection from="1tosem" to="semto2" fromLane="0" toLane="0" via=":sem1_16_0" tl="sem1" linkIndex="16" dir="s" state="o"/>
+    <connection from="1tosem" to="semto2" fromLane="1" toLane="1" via=":sem1_16_1" tl="sem1" linkIndex="17" dir="s" state="o"/>
+    <connection from="1tosem" to="semto3" fromLane="1" toLane="1" via=":sem1_18_0" tl="sem1" linkIndex="18" dir="l" state="o"/>
+    <connection from="1tosem" to="semto1" fromLane="1" toLane="1" via=":sem1_19_0" tl="sem1" linkIndex="19" dir="t" state="o"/>
+    <connection from="2tosem" to="semto3" fromLane="0" toLane="0" via=":sem1_5_0" tl="sem1" linkIndex="5" dir="r" state="o"/>
+    <connection from="2tosem" to="semto1" fromLane="0" toLane="0" via=":sem1_6_0" tl="sem1" linkIndex="6" dir="s" state="o"/>
+    <connection from="2tosem" to="semto1" fromLane="1" toLane="1" via=":sem1_6_1" tl="sem1" linkIndex="7" dir="s" state="o"/>
+    <connection from="2tosem" to="semto4" fromLane="1" toLane="1" via=":sem1_8_0" tl="sem1" linkIndex="8" dir="l" state="o"/>
+    <connection from="2tosem" to="semto2" fromLane="1" toLane="1" via=":sem1_9_0" tl="sem1" linkIndex="9" dir="t" state="o"/>
+    <connection from="3tosem" to="semto1" fromLane="0" toLane="0" via=":sem1_0_0" tl="sem1" linkIndex="0" dir="r" state="O"/>
+    <connection from="3tosem" to="semto4" fromLane="0" toLane="0" via=":sem1_1_0" tl="sem1" linkIndex="1" dir="s" state="O"/>
+    <connection from="3tosem" to="semto4" fromLane="1" toLane="1" via=":sem1_1_1" tl="sem1" linkIndex="2" dir="s" state="O"/>
+    <connection from="3tosem" to="semto2" fromLane="1" toLane="1" via=":sem1_3_0" tl="sem1" linkIndex="3" dir="l" state="o"/>
+    <connection from="3tosem" to="semto3" fromLane="1" toLane="1" via=":sem1_4_0" tl="sem1" linkIndex="4" dir="t" state="o"/>
+    <connection from="4tosem" to="semto2" fromLane="0" toLane="0" via=":sem1_10_0" tl="sem1" linkIndex="10" dir="r" state="O"/>
+    <connection from="4tosem" to="semto3" fromLane="0" toLane="0" via=":sem1_11_0" tl="sem1" linkIndex="11" dir="s" state="O"/>
+    <connection from="4tosem" to="semto3" fromLane="1" toLane="1" via=":sem1_11_1" tl="sem1" linkIndex="12" dir="s" state="O"/>
+    <connection from="4tosem" to="semto1" fromLane="1" toLane="1" via=":sem1_13_0" tl="sem1" linkIndex="13" dir="l" state="o"/>
+    <connection from="4tosem" to="semto4" fromLane="1" toLane="1" via=":sem1_14_0" tl="sem1" linkIndex="14" dir="t" state="o"/>
+    <connection from="semto1" to="1tosem" fromLane="1" toLane="1" via=":1_0_0" dir="t" state="M"/>
+    <connection from="semto2" to="2tosem" fromLane="1" toLane="1" via=":2_0_0" dir="t" state="M"/>
+    <connection from="semto3" to="3tosem" fromLane="1" toLane="1" via=":3_0_0" dir="t" state="M"/>
+    <connection from="semto4" to="4tosem" fromLane="1" toLane="1" via=":4_0_0" dir="t" state="M"/>
+
+    <connection from=":1_0" to="1tosem" fromLane="0" toLane="1" dir="t" state="M"/>
+    <connection from=":2_0" to="2tosem" fromLane="0" toLane="1" dir="t" state="M"/>
+    <connection from=":3_0" to="3tosem" fromLane="0" toLane="1" dir="t" state="M"/>
+    <connection from=":4_0" to="4tosem" fromLane="0" toLane="1" dir="t" state="M"/>
+    <connection from=":sem1_0" to="semto1" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":sem1_1" to="semto4" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":sem1_1" to="semto4" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":sem1_3" to="semto2" fromLane="0" toLane="1" via=":sem1_20_0" dir="l" state="m"/>
+    <connection from=":sem1_20" to="semto2" fromLane="0" toLane="1" dir="l" state="M"/>
+    <connection from=":sem1_4" to="semto3" fromLane="0" toLane="1" via=":sem1_21_0" dir="t" state="m"/>
+    <connection from=":sem1_21" to="semto3" fromLane="0" toLane="1" dir="t" state="M"/>
+    <connection from=":sem1_5" to="semto3" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":sem1_6" to="semto1" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":sem1_6" to="semto1" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":sem1_8" to="semto4" fromLane="0" toLane="1" via=":sem1_22_0" dir="l" state="m"/>
+    <connection from=":sem1_22" to="semto4" fromLane="0" toLane="1" dir="l" state="M"/>
+    <connection from=":sem1_9" to="semto2" fromLane="0" toLane="1" via=":sem1_23_0" dir="t" state="m"/>
+    <connection from=":sem1_23" to="semto2" fromLane="0" toLane="1" dir="t" state="M"/>
+    <connection from=":sem1_10" to="semto2" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":sem1_11" to="semto3" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":sem1_11" to="semto3" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":sem1_13" to="semto1" fromLane="0" toLane="1" via=":sem1_24_0" dir="l" state="m"/>
+    <connection from=":sem1_24" to="semto1" fromLane="0" toLane="1" dir="l" state="M"/>
+    <connection from=":sem1_14" to="semto4" fromLane="0" toLane="1" via=":sem1_25_0" dir="t" state="m"/>
+    <connection from=":sem1_25" to="semto4" fromLane="0" toLane="1" dir="t" state="M"/>
+    <connection from=":sem1_15" to="semto4" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":sem1_16" to="semto2" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":sem1_16" to="semto2" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":sem1_18" to="semto3" fromLane="0" toLane="1" via=":sem1_26_0" dir="l" state="m"/>
+    <connection from=":sem1_26" to="semto3" fromLane="0" toLane="1" dir="l" state="M"/>
+    <connection from=":sem1_19" to="semto1" fromLane="0" toLane="1" via=":sem1_27_0" dir="t" state="m"/>
+    <connection from=":sem1_27" to="semto1" fromLane="0" toLane="1" dir="t" state="M"/>
+
+</net>
