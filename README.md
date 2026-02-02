@@ -18,5 +18,9 @@ Após receber um objeto, a estação base o encaminha para o nó de borda associ
 
 Considerando os objetos descarregados na borda, o VORTEX apresenta a menor latência mediana, com diferenças estatisticamente significativas em relação aos demais algoritmos ao nível de 5% (teste de Kruskal--Wallis seguido do pós-teste de Dunn). No gráfico da nuvem, as diferenças tornam-se ainda mais evidentes: o VORTEX mantém latência mediana significativamente inferior aos demais algoritmos ao nível de 5%, o que é consistente com a política de priorização de objetos com maior criticidade temporal e com a consequente redução de espera dos objetos que acabam sendo encaminhadas para a nuvem. 
 
+## Pŕoximos Passos
+
+* Modelos de aprendizado de máquina para prever a seleção dos objetos, baseada nas características.
+
 
 
