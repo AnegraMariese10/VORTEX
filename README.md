@@ -1,2 +1,2 @@
 # VORTEX
-Um framework para o descarregamento (offloading) de objetos detectados por veículos autônomos em um continuum de computação edge-cloud via redes LTE/4G e NR/5G.
+Um framework para o descarregamento (offloading) de objetos detectados por veículos autônomos em um continuum de computação edge-cloud via redes LTE/4G e NR/5G, projetado para ser executado no ambiente de simulação integrado: OMNeT++ 5.6.2 como núcleo de eventos discretos, Simu5G 1.1.0 para modelagem da pilha 5G, INET 4.2.2 para os protocolos de rede, Veins 5.2 para acoplamento entre rede e mobilidade, e SUMO 1.8.0 para geração do tráfego veicular.
