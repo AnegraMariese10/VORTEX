@@ -7,7 +7,7 @@ O VORTEX é uma heurística online e totalmente distribuída, projetada para apr
 
 ## Cenário de Descarregamento Hierárquico
 
-![Diagrama do VORTEX](vortex-overview.png)
+![Diagrama do VORTEX](https://github.com/AnegraMariese10/VORTEX/blob/main/vortex-overview.jpg)
 
 
 A Figura ilustra o cenário de comunicação hierárquico considerado pelo VORTEX.  A arquitetura é composta por quatro camadas: veículos, estações base, nós de borda e uma nuvem centralizada. Os veículos descarregam os objetos detectados para uma estação base selecionada usando conectividade 4G/LTE ou 5G/NR. Cada estação base está conectada a um nó de borda por meio de um link de backhaul, enquanto os nós de borda estão conectados à nuvem através da rede central.
