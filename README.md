@@ -20,7 +20,8 @@ Após receber um objeto, a estação base o encaminha para o nó de borda associ
 
  A Figura abaixo apresenta a latência mediana (com IC de 95%) e o resultado do teste de Dunn, em dois painéis: à esquerda, dos objetos descarregados na borda; à direita, dos objetos descarregados na nuvem. A mediana foi adotada por se tratar de uma medida robusta à assimetria e à presença de valores extremos, comuns em métricas de latência. 
 
- ![Latência do VORTEX](latenciaMediana.png.png)
+ ![Latência do VORTEX](https://github.com/AnegraMariese10/VORTEX/blob/main/latenciaMediana.png)
+ 
 
 Considerando os objetos descarregados na borda, o VORTEX apresenta a menor latência mediana, com diferenças estatisticamente significativas em relação aos demais algoritmos ao nível de 5% (teste de Kruskal--Wallis seguido do pós-teste de Dunn). No gráfico da nuvem, as diferenças tornam-se ainda mais evidentes: o VORTEX mantém latência mediana significativamente inferior aos demais algoritmos ao nível de 5%, o que é consistente com a política de priorização de objetos com maior criticidade temporal e com a consequente redução de espera dos objetos que acabam sendo encaminhadas para a nuvem. 
 
