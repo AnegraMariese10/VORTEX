@@ -7,7 +7,7 @@ O VORTEX é uma heurística online e totalmente distribuída, projetada para apr
 
 ## Cenário de Descarregamento Hierárquico
 
-
+![Diagrama do VORTEX](vortex-overview.png)
 
 
 A Figura ilustra o cenário de comunicação hierárquico considerado pelo VORTEX.  A arquitetura é composta por quatro camadas: veículos, estações base, nós de borda e uma nuvem centralizada. Os veículos descarregam os objetos detectados para uma estação base selecionada usando conectividade 4G/LTE ou 5G/NR. Cada estação base está conectada a um nó de borda por meio de um link de backhaul, enquanto os nós de borda estão conectados à nuvem através da rede central.
@@ -18,7 +18,9 @@ Após receber um objeto, a estação base o encaminha para o nó de borda associ
 ## Resultados
 
 
- A Figura acima apresenta a latência mediana (com IC de 95%) e o resultado do teste de Dunn, em dois painéis: à esquerda, dos objetos descarregados na borda; à direita, dos objetos descarregados na nuvem. A mediana foi adotada por se tratar de uma medida robusta à assimetria e à presença de valores extremos, comuns em métricas de latência. 
+ A Figura abaixo apresenta a latência mediana (com IC de 95%) e o resultado do teste de Dunn, em dois painéis: à esquerda, dos objetos descarregados na borda; à direita, dos objetos descarregados na nuvem. A mediana foi adotada por se tratar de uma medida robusta à assimetria e à presença de valores extremos, comuns em métricas de latência. 
+
+ ![Latência do VORTEX](latenciaMediana.png.png)
 
 Considerando os objetos descarregados na borda, o VORTEX apresenta a menor latência mediana, com diferenças estatisticamente significativas em relação aos demais algoritmos ao nível de 5% (teste de Kruskal--Wallis seguido do pós-teste de Dunn). No gráfico da nuvem, as diferenças tornam-se ainda mais evidentes: o VORTEX mantém latência mediana significativamente inferior aos demais algoritmos ao nível de 5%, o que é consistente com a política de priorização de objetos com maior criticidade temporal e com a consequente redução de espera dos objetos que acabam sendo encaminhadas para a nuvem. 
 
