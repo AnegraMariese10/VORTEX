@@ -1,1 +1,0 @@
-time;algoritimo;server;carId, CoordX, CoordY, idObj;SizeObj;obDetect;prioridadeVideo;deadlineVideo;coordObjX;coordObjY;
