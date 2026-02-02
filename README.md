@@ -8,6 +8,8 @@ O VORTEX é uma heurística online e totalmente distribuída, projetada para apr
 ## Cenário de Descarregamento Hierárquico
 
 
+
+
 A Figura ilustra o cenário de comunicação hierárquico considerado pelo VORTEX.  A arquitetura é composta por quatro camadas: veículos, estações base, nós de borda e uma nuvem centralizada. Os veículos descarregam os objetos detectados para uma estação base selecionada usando conectividade 4G/LTE ou 5G/NR. Cada estação base está conectada a um nó de borda por meio de um link de backhaul, enquanto os nós de borda estão conectados à nuvem através da rede central.
 
 Após receber um objeto, a estação base o encaminha para o nó de borda associado. Antes de armazenar o objeto, o nó de borda verifica se já existe uma versão anterior do mesmo objeto, com base no tipo de objeto e na posição espacial aproximada. Se existir um registro anterior, a informação desatualizada é encaminhada para a nuvem e substituída pela observação mais recente. Esse mecanismo impede que dados obsoletos persistam na borda e garante que a percepção cooperativa seja suportada por informações atualizadas. Objetos cujo tempo de vida útil expirou são sistematicamente encaminhados para a nuvem, que se presume fornecer capacidade de armazenamento virtualmente ilimitada.
