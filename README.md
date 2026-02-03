@@ -14,6 +14,8 @@ A Figura ilustra o cenário de comunicação hierárquico considerado pelo VORTE
 
 Após receber um objeto, a estação base o encaminha para o nó de borda associado. Antes de armazenar o objeto, o nó de borda verifica se já existe uma versão anterior do mesmo objeto, com base no tipo de objeto e na posição espacial aproximada. Se existir um registro anterior, a informação desatualizada é encaminhada para a nuvem e substituída pela observação mais recente. Esse mecanismo impede que dados obsoletos persistam na borda e garante que a percepção cooperativa seja suportada por informações atualizadas. Objetos cujo tempo de vida útil expirou são sistematicamente encaminhados para a nuvem, que se presume fornecer capacidade de armazenamento virtualmente ilimitada.
 
+O nó de borda também atua na percepção colaborativa. Ela explora o seu cache para identificar objetos não detectados localmente por veículos próximos e os encaminhando, expandindo seu campo perceptivo e contribuindo para uma visão mais abrangente do ambiente. 
+
 
 ## Resultados
 
